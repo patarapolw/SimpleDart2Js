@@ -1,0 +1,16 @@
+name: dart_react
+version: "0.1.0"
+
+environment:
+  sdk: ">=1.24.3 <2.0.0"
+
+dependencies:
+  over_react: ^1.29.0
+
+dev_dependencies:
+  browser: any
+
+transformers:
+  - over_react
+  # Reminder: dart2js should come after any other transformers that touch Dart code
+  - $dart2js

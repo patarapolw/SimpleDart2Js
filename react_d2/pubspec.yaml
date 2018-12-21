@@ -1,0 +1,17 @@
+name: dartweb
+version: 0.1.0
+
+author: Pacharapol Withayasakpunt <cedric@belin.io>
+description: Provides interoperability for Node.js applications.
+
+environment:
+  sdk: '>=1.24.3 <2.0.0'
+
+dependencies:
+  react: ^4.5.0
+#   over_react: ^1.29.0
+
+# transformers:
+#   - over_react
+#   # Reminder: dart2js should come after any other transformers that touch Dart code
+#   - $dart2js
